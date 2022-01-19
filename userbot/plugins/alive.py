@@ -18,7 +18,7 @@ from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 from . import *
 
-LEGEND_IMG = "https://telegra.ph/file/153977a71b928874151a5.jpg"
+LEGEND_IMG = "https://telegra.ph/file/5c61dd2bfd9c2b5477802.jpg"
 CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@LegendBot_Pros"
 
 
@@ -50,6 +50,7 @@ async def amireallyalive(alive):
         )
         LEGEND_caption += f"{alive_emoji} **Uptime**           ~ `{uptime}`\n"
         LEGEND_caption += f"{alive_emoji} **Master**          ~ `{Config.ALIVE_NAME}`"
+        LEGEND_caption += f"**Developer**    ~ [©ANKIT™](https://t.me/x_NKIT)
         await alive.client.send_file(
             alive.chat_id, LEGEND_IMG, caption=LEGEND_caption, reply_to=reply_to_id
         )
