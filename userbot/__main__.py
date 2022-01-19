@@ -49,9 +49,9 @@ else:
                 "BOT_TOKEN", api_id=Config.APP_ID, api_hash=Config.API_HASH
             ).start(bot_token=Config.BOT_TOKEN)
             LOGS.info("Checking Completed. Proceeding to next step...")
-            LOGS.info("♥️ Starting PRO-LEGENDBOT ♥️")
+            LOGS.info("♥️ Starting ANKITBOT ♥️")
             bot.loop.run_until_complete(add_bot(Config.BOT_USERNAME))
-            LOGS.info("🥇🔥 PRO-LEGENDBOT Startup Completed 🔥🥇")
+            LOGS.info("🥇🔥 ANKITBOT Startup Completed 🔥🥇")
         else:
             bot.start()
     except Exception as e:
@@ -105,7 +105,7 @@ async def killer():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_file("@BotFather", "userbot/resources/pics/main.jpg")
+            await bot.send_file("@BotFather", "https://telegra.ph/file/17685725644abe7363a61.jpg")
             await asyncio.sleep(2)
         except Exception as e:
             print(e)
@@ -351,7 +351,7 @@ bot.loop.run_until_complete(install())
 
 print(
     f"""
-╔════❰PRO-LEGENDBOT❱═❍⊱❁۪۪
+╔════❰ANKITBOT❱═❍⊱❁۪۪
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
 ║┣⪼ Group - @LegendBot_Pros
 ║┣⪼ CREATOR - @Pro_LegendBoy
