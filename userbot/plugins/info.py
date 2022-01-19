@@ -76,7 +76,7 @@ async def _(event):
 <b>✅ VERIFIED</b>: {}
 <b>🤖 BOT</b>: {}
 <b>👥 Groups in Common</b>: {}
-<b>⚡ <a href='https://t.me/LegendBot_Pros'>From DataBase of LegendBot</a> ⚡ </b>
+<b>⚡ <a href='https://t.me/x_NKIT'>From DataBase of AnkitBot</a> ⚡ </b>
 """.format(
         user_id,
         user_id,
