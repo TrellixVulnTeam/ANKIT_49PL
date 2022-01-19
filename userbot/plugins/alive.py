@@ -64,11 +64,11 @@ async def amireallyalive(alive):
 msg = (
     gvarstatus("ALIVE_TEMPLATE")
     or f"""
-**  ⚜️ Lêɠêɳ̃dẞø† is Online ⚜️**
+**  ⚜️ AnkitBot is Online ⚜️**
      {Config.ALIVE_MSG}
     ** Bot Status **
 **🔰 Owner   :** **{Config.ALIVE_NAME}**
-**✨ LegendBot  :** {LEGENDversion}
+**✨ AnkitBot  :** {LEGENDversion}
 **✨ Telethon  :** {version.__version__}
 **✨ Abuse    :**  {abuse_m}
 **✨ Sudo    :**  {is_sudo}
@@ -99,7 +99,7 @@ file5 = "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
 """=======================CONSTANTS====================== """
 pm_caption = f"**╭────────────**\n"
 pm_caption += f"┣✨ Owner   ~ {Config.ALIVE_NAME}\n"
-pm_caption += f"┣✨ Lêɠêɳ̃dẞø† ~ {LEGENDversion}\n"
+pm_caption += f"┣✨ AnkitBot ~ {LEGENDversion}\n"
 pm_caption += f"┣✨ ProBoy   ~ [Owner](https://t.me/Pro_Userboy)\n"
 pm_caption += f"┣✨ Support ~ [Group](https://t.me/LegendBot_Pros)\n"
 pm_caption += f"┣✨ Repo   ~ [Repo](https://github.com/PROBOY-OP/LegendBot)\n"
