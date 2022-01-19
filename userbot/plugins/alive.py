@@ -49,8 +49,8 @@ async def amireallyalive(alive):
             f"{alive_emoji} **Python version**    ~ `{python_version()}`\n"
         )
         LEGEND_caption += f"{alive_emoji} **Uptime**           ~ `{uptime}`\n"
-        LEGEND_caption += f"{alive_emoji} **Master**          ~ `{Config.ALIVE_NAME}`"
-        LEGEND_caption += f"**Developer**    ~ [©ANKIT™](https://t.me/x_NKIT)
+        LEGEND_caption += f"{alive_emoji} **Master**          ~ `{Config.ALIVE_NAME}`\n"
+        LEGEND_caption += f"**Developer**    ~ [©ANKIT™](https://t.me/x_NKIT)\n"
         await alive.client.send_file(
             alive.chat_id, LEGEND_IMG, caption=LEGEND_caption, reply_to=reply_to_id
         )
