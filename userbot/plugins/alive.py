@@ -22,8 +22,8 @@ LEGEND_IMG = "https://telegra.ph/file/153977a71b928874151a5.jpg"
 CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@LegendBot_Pros"
 
 
-@bot.on(admin_cmd(outgoing=True, pattern="legend$"))
-@bot.on(sudo_cmd(pattern="legend$", allow_sudo=True))
+@bot.on(admin_cmd(outgoing=True, pattern="ankit$"))
+@bot.on(sudo_cmd(pattern="ankit$", allow_sudo=True))
 async def amireallyalive(alive):
     if alive.fwd_from:
         return
@@ -39,9 +39,9 @@ async def amireallyalive(alive):
                 c.append(d)
         alive_emoji = random.choice(c)
     if LEGEND_IMG:
-        LEGEND_caption = f"**LegendBot is Up And Running**\n\n"
+        LEGEND_caption = f"**AnkitBot is Up And Running**\n\n"
         LEGEND_caption += f"      🔰Bot Status🔰 \n"
-        LEGEND_caption += f"{alive_emoji} **LegendBo† version**   ~ {LEGENDversion}\n"
+        LEGEND_caption += f"{alive_emoji} **AnkitBo† version**   ~ 1.0\n"
         LEGEND_caption += (
             f"{alive_emoji} **Telethon version**   ~ `{version.__version__}`\n"
         )
@@ -162,7 +162,7 @@ async def amireallyalive(yes):
 
 
 CmdHelp("alive").add_command("bot", None, "υѕє αи∂ ѕєє").add_command(
-    "legend", None, "Its Same Like Alive"
+    "ankit", None, "Its Same Like Alive"
 ).add_command("about", None, "BEST alive command").add_command(
     "alive", None, "Its Show ur Alive Template"
 ).add_warning(
