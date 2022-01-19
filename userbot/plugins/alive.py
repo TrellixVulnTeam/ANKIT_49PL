@@ -41,7 +41,7 @@ async def amireallyalive(alive):
     if LEGEND_IMG:
         LEGEND_caption = f"**AnkitBot is Up And Running**\n\n"
         LEGEND_caption += f"      🔰Bot Status🔰 \n"
-        LEGEND_caption += f"{alive_emoji} **AnkitBo† version**   ~ 1.0\n"
+        LEGEND_caption += f"{alive_emoji} **AnkitBo† version**   ~ `{LEGENDversion}`\n"
         LEGEND_caption += (
             f"{alive_emoji} **Telethon version**   ~ `{version.__version__}`\n"
         )
