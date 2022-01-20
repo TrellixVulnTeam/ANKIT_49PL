@@ -355,7 +355,7 @@ print(
 ║┣⪼ OWNER - {Config.ALIVE_NAME}
 ║┣⪼ Group - @NoUB_SUPPORT
 ║┣⪼ CREATOR - @x_NKIT
-║┣⪼ PRO-LEGENDBOT - {LEGENDversion}
+║┣⪼ ANKITBOT - {LEGENDversion}
 ║┣⪼ ✨ 『🔱 ANKIT 🔱』𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱"""
