@@ -8,7 +8,7 @@ if ENV:
         OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
         NO_OF_COLUMNS = int(os.environ.get("NO_OF_COLUMNS", 2))
         BL_CHAT = os.environ.get("BL_CHAT", "-1001344140905")
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001169892177))
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001288186674))
         FBAN_LOGGER_GROUP = os.environ.get("FBAN_LOGGER_GROUP", None)
         if FBAN_LOGGER_GROUP:
             FBAN_LOGGER_GROUP = int(FBAN_LOGGER_GROUP)
@@ -57,29 +57,29 @@ if ENV:
         ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", None) or "✥"
         ALIVE_PIC = (
             os.environ.get("ALIVE_PIC", None)
-            or "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
+            or "https://telegra.ph/file/5c61dd2bfd9c2b5477802.jpg"
         )
         PM_PIC = (
             os.environ.get("PM_PIC", None)
-            or "https://te.legra.ph/file/0c605739ddaa472cad75f.jpg"
+            or "https://telegra.ph/file/5c61dd2bfd9c2b5477802.jpg"
         )
         AWAKE_PIC = (
             os.environ.get("AWAKE_PIC", None)
-            or "https://telegra.ph/file/47ffec836544b371408ab.mp4"
+            or "https://telegra.ph/file/5c61dd2bfd9c2b5477802.jpg"
         )
         HELP_PIC = (
             os.environ.get("HELP_PIC", None)
-            or "https://te.legra.ph/file/b5d01ceea49ee0a822661.mp4"
+            or "https://telegra.ph/file/5c61dd2bfd9c2b5477802.jpg"
         )
         PING_PIC = (
             os.environ.get("PING_PIC", None)
-            or "https://te.legra.ph/file/ace5feae5b1ac8ea262ed.jpg"
+            or "https://telegra.ph/file/5c61dd2bfd9c2b5477802.jpg"
         )
-        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "Lêɠêɳ̃dẞøt Is Online"
+        ALIVE_MSG = os.environ.get("ALIVE_MSG", None) or "ANKITẞøt Is Online"
         PM_MSG = os.environ.get("PM_MSG", None)
         INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", "OFF")
-        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@LegendBot_Pros")
-        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@Pro_LegendBots.")
+        YOUR_GROUP = os.environ.get("YOUR_GROUP", "@NoUB_SUPPORT")
+        YOUR_CHANNEL = os.environ.get("YOUR_CHANNEL", "@NoUB_CHAT")
         BOT_PIC = os.environ.get("ALIVE_PIC", None)
         # auto bio
         BIO_MSG = os.environ.get("ALIVE_MSG", None)
@@ -88,7 +88,7 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API", None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/PROBOY-OP/PRO-LEGENDBOT"
+            "UPSTREAM_REPO", "https://github.com/NVS-OS"
         )
         APP_ID = os.environ.get("APP_ID", None)
         API_HASH = os.environ.get("API_HASH", None)
@@ -134,7 +134,7 @@ if ENV:
             "TMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/"
         )
         TELEGRAPH_SHORT_NAME = (
-            os.environ.get("TELEGRAPH_SHORT_NAME", None) or "LEGENDBOT"
+            os.environ.get("TELEGRAPH_SHORT_NAME", None) or "ANKIT"
         )
         TG_GLOBAL_ALBUM_LIMIT = int(os.environ.get("TG_GLOBAL_ALBUM_LIMIT", 9))
         # MIRROR ACE API KEY AND TOKEN
