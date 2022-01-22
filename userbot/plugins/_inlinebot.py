@@ -63,7 +63,7 @@ alive_txt = (
          {}
 
          {}Bo† Status{}
-{} **LegendBo† version:** {}
+{} **AnkitBo† version:** {}
 {} **Telethon version :** {}
 {} **Uptime  :** {}
 {} **Abuse :** {}
@@ -237,7 +237,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             else:
                 result = builder.article(
                     text=leg_end,
-                    title="LegendBot Alive",
+                    title="AnkiBot Alive",
                     buttons=alv_btn,
                     link_preview=False,
                 )
@@ -305,14 +305,14 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**⚜ Legendary Af Pro - LegendBot ⚜**",
+                text=f"**⚜ Legendary Of AnkitBot⚜**",
                 buttons=[
-                    [Button.url("♥️ Tutorial ♥", "https://youtu.be/9dQgdUJfk_k")],
-                    [Button.url("📍 𝚁𝚎𝚙𝚘 📍", "https://github.com/PROBOY-OP/LegendBot")],
+                    [Button.url("♥️ Owner ♥", "https://t.me/OS_xD")],
+                    [Button.url("📍 Ankit 📍", "https://t.me/OS_xD")],
                     [
                         Button.url(
-                            "💞 Deploy 💞",
-                            "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPROBOY-OP%2FPRO-LEGENDBOT&template=https%3A%2F%2Fgithub.com%2FPROBOY-OP%2FPRO-LEGENDBOT",
+                            "💞 Developer 💞",
+                            "https://t.me/OS_xD",
                         )
                     ],
                 ],
@@ -328,10 +328,10 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         else:
             buttons = [
                 (
-                    Button.url("Sources", "https://github.com/PROBOY-OP/PRO-LEGENDBOT"),
+                    Button.url("Owner", "https://t.me/OS_xD"),
                     Button.url(
-                        "Deploy",
-                        "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPROBOY-OP%2FPRO-LEGENDBOT&template=https%3A%2F%2Fgithub.com%2FPROBOY-OP%2FPRO-LEGENDBOT",
+                        "Ankit",
+                        "https://t.me/OS_xD",
                     ),
                 )
             ]
@@ -355,7 +355,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             result = types.InputBotInlineResult(
                 id=str(uuid4()),
                 type="photo",
-                title="LEGENDBOT",
+                title="ANKITBOT",
                 description="Deploy yourself",
                 url="https://github.com/PROBOY-OP/PRO-USERBOT",
                 thumb=photo,
@@ -373,7 +373,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"🔰 This is Pro-Lêɠêɳ̃dẞø† PM Security for {legend_mention} to keep away unwanted retards from spamming PM..."
+                f"🔰 This is ANKITẞø† PM Security for {legend_mention} to keep away unwanted retards from spamming PM..."
             )
 
     @tgbot.on(callbackquery.CallbackQuery(data=compile(b"req")))
