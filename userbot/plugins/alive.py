@@ -19,7 +19,7 @@ from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from . import *
 
 LEGEND_IMG = "https://telegra.ph/file/5c61dd2bfd9c2b5477802.jpg"
-CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@LegendBot_Pros"
+CUSTOM_YOUR_GROUP = Config.YOUR_GROUP or "@NoUB_CHAT"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="ankit$"))
@@ -50,7 +50,7 @@ async def amireallyalive(alive):
         )
         LEGEND_caption += f"{alive_emoji} **Uptime**           ~ `{uptime}`\n"
         LEGEND_caption += f"{alive_emoji} **Master**          ~ `{Config.ALIVE_NAME}`\n"
-        LEGEND_caption += f"**Developer**    ~ [©ANKIT™](https://t.me/x_NKIT)\n"
+        LEGEND_caption += f"{alive_emoji} **Developer**    ~ [©ANKIT™](https://t.me/OS_xD)\n"
         await alive.client.send_file(
             alive.chat_id, LEGEND_IMG, caption=LEGEND_caption, reply_to=reply_to_id
         )
@@ -101,9 +101,9 @@ file5 = "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
 pm_caption = f"**╭────────────**\n"
 pm_caption += f"┣✨ Owner   ~ {Config.ALIVE_NAME}\n"
 pm_caption += f"┣✨ AnkitBot ~ {LEGENDversion}\n"
-pm_caption += f"┣✨ ProBoy   ~ [Owner](https://t.me/Pro_Userboy)\n"
-pm_caption += f"┣✨ Support ~ [Group](https://t.me/LegendBot_Pros)\n"
-pm_caption += f"┣✨ Repo   ~ [Repo](https://github.com/PROBOY-OP/LegendBot)\n"
+pm_caption += f"┣✨ Ankit   ~ [Owner](https://t.me/OS_xD)\n"
+pm_caption += f"┣✨ Support ~ [Group](https://t.me/OS_xD)\n"
+pm_caption += f"┣✨ Repo   ~ [Repo](https://t.me/OS_xD)\n"
 pm_caption += f"**╰────────────**\n"
 
 
